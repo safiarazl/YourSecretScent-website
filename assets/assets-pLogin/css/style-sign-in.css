@@ -1,0 +1,38 @@
+.border {
+  height: 35rem;
+}
+
+.container-fluid {
+  background-image: url(../assets/images/bg/sign-in.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}

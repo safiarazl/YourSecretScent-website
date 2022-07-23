@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Sofia;
+  src: url("../assets/font/Sofia/Sofia-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Signika;
+  src: url("../assets/font/Signika/static/Signika-Regular.ttf") format("truetype");
+}
+
+* {
+  font-family: "Sofia";
+}
+
+.content-click {
+  text-decoration: none;
+  color: #111111;
+}
+
+.signika {
+  font-family: "Signika";
+}
+
+footer {
+  background-color: black;
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
