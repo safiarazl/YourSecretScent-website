@@ -7,16 +7,14 @@ class User extends CI_Controller
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('modelku');
 	}
 
 	public function index()
 	{
-		$ses = $this->session->userdata;
-		$data = array(
-			"teks" => $ses
-		);
-		$this->load->view('user/index', $data);
+		if ($this->session->userdata('status') != "Login") {
+			redirect('auth/login');
+		}
+		$this->load->view('user/index');
 	}
 
 	public function log_out()
@@ -39,16 +37,10 @@ class User extends CI_Controller
 	}
 	public function page_productDetail()
 	{
-		if ($this->session->userdata('status') != "Login") {
-			redirect('auth');
-		}
 		$this->load->view('user/product-detail-1');
 	}
 	public function page_productDetail2()
 	{
-		if ($this->session->userdata('status') != "Login") {
-			redirect('auth');
-		}
 		$this->load->view('user/product-detail-2');
 	}
 	public function page_team()

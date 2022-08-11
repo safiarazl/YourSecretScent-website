@@ -59,13 +59,13 @@
                                         <button class="btn btn-primary w-100" type="submit">Create Account</button>
                                     </div>
                                     <div class="col-12">
-                                        <p class="small mb-0">Already have an account? <a href="<?= base_url('auth'); ?>">Log in</a></p>
+                                        <p class="small mb-0">Already have an account? <a href="<?= base_url('auth/login'); ?>">Log in</a></p>
                                     </div>
                                 </form>
                             </div>
                         </div>
                         <div class="credits">
-                            <a href="<?= base_url('user'); ?>"> Back to Home</a>
+                            <a href="<?= base_url('auth'); ?>"> Back to Home</a>
                         </div>
                     </div>
                 </div>

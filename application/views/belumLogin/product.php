@@ -35,20 +35,20 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <h1 class="logo">
-                <a href="<?= base_url('user'); ?>" style="text-decoration: none;">Your Secret Scent<span>.</span></a>
+                <a href="<?= base_url('auth'); ?>" style="text-decoration: none;">Your Secret Scent<span>.</span></a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link" href="<?= base_url('user'); ?>">Home</a></li>
-                    <li><a class="nav-link" href="<?= base_url('user/page_about'); ?>">About</a></li>
-                    <li><a class="nav-link" href="<?= base_url('user/page_milestone'); ?>">Milestone</a></li>
-                    <li><a class="nav-link active" href="<?= base_url('user/page_products'); ?>">Product</a></li>
-                    <li><a class="nav-link" href="<?= base_url('user/page_team'); ?>">Team</a></li>
-                    <li><a class="nav-link" href="<?= base_url('user/page_FAQ'); ?>">FAQ</a></li>
-                    <li><a class="nav-link" href="<?= base_url('user/log_out'); ?>">Log Out</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth'); ?>">Home</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth/page_about'); ?>">About</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth/page_milestone'); ?>">Milestone</a></li>
+                    <li><a class="nav-link active" href="<?= base_url('auth/page_products'); ?>">Product</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth/page_team'); ?>">Team</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth/page_FAQ'); ?>">FAQ</a></li>
+                    <li><a class="nav-link" href="<?= base_url('auth/login'); ?>">Login</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -111,7 +111,7 @@
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="<?= base_url('user/page_productDetail'); ?>">View details</a>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="<?= base_url('auth/page_productDetail'); ?>">View details</a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="<?= base_url('user/page_productDetail2'); ?>">View details</a>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="<?= base_url('auth/page_productDetail2'); ?>">View details</a>
                             </div>
                         </div>
                     </div>

@@ -19,7 +19,7 @@
                                     <p class="text-center small">Enter your username & password to login</p>
                                 </div>
 
-                                <form class="row g-3" action="<?= base_url('auth'); ?>" method="post">
+                                <form class="row g-3" action="<?= base_url('auth/login'); ?>" method="post">
                                     <div class="col-12">
                                         <label for="yourUsername" class="form-label">Username</label>
                                         <div class="input-group has-validation">
@@ -53,7 +53,7 @@
                             </div>
                         </div>
                         <div class="credits">
-                            <a href="<?= base_url('user'); ?>"> Back to Home</a>
+                            <a href="<?= base_url('auth'); ?>"> Back to Home</a>
                         </div>
                     </div>
                 </div>

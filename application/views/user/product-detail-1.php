@@ -46,7 +46,7 @@
                     <li><a class="nav-link active" href="<?= base_url('user/page_products'); ?>">Product</a></li>
                     <li><a class="nav-link" href="<?= base_url('user/page_team'); ?>">Team</a></li>
                     <li><a class="nav-link" href="<?= base_url('user/page_FAQ'); ?>">FAQ</a></li>
-                    <li><a class="nav-link" href="<?= base_url('log_out'); ?>">Login</a></li>
+                    <li><a class="nav-link" href="<?= base_url('user/log_out'); ?>">Log Out</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
